@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" 
+    href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/temp.jpg" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Jack</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Front-End Developer</p>
+        <img src="img/temp.jpg" alt="Developer Image" class="intro__img">
+    </section>
+
+    <!-- My Services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Front End Development<br>
+                    & Design
+                </h3>
+                <p>
+                    <strong>Languages I specialise in:</strong><br>
+                    <i class="fab fa-html5"></i> HTML5 <br>
+                    <i class="fab fa-css3-alt"></i> CSS3 <br>
+                    <i class="fab fa-js"></i> JavaScript (ES6)
+                </P>
+                <p>
+                    <strong>Frameworks:</strong><br>
+                    <i class="fab fa-react"></i> React <br>
+                    <i class="fab fa-node"></i> Node.js <br>
+                    <i class="devicon-express-original"></i> Express
+                </p>
+                <p>
+                    <strong>Dev Tools:</strong><br>
+                    <i class="fab fa-sass"></i> Sass <br>
+                    <i class="fab fa-bootstrap"></i> Bootstrap <br>
+                    <i class="fab fa-github-square"></i> Github <br>
+                    <i class="devicon-jquery-plain"></i> jQuery <br>
+                    <i class="devicon-babel-plain"></i> Babel <br>
+                    <i class="devicon-jasmine-plain"></i> Jasmine <br>
+                    AJAX
+                </p>
+            </div> <!-- /Service -->
+
+            <div class="service">
+                <h3>Software Development<br>and Databases</h3>
+                <p>
+                    <strong>Languages I specialise in:</strong> <br/>
+                    <i class="fab fa-python"></i> Python <br/>
+                    <i class="devicon-csharp-plain"></i> C#
+                </p>
+                <p><br>
+                    <strong>Databases:</strong> <br/>
+                    <i class="devicon-mongodb-plain"></i> MongoDB <br/>
+                    <i class="devicon-mysql-plain"></i> MySQL
+                </p>
+            </div> <!-- /Service -->
+
+            <div class="service">
+                <h3>Data Analysis<br>and Report Creation</h3>
+                <p>
+                    <strong>Data Analysis:</strong><br>
+                    Business Objects <br>
+                    SPSS <br>
+                    Data Manipulation <br>
+                </P>
+            </div> <!-- /Service -->
+        </div> <!-- /Services-->
+
+        <a href="#work" class="btn">See My Work</a>
+    </section>
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Developer and Data Analyst based in London</p>
+        <div class="about-me__body">
+            <p>I am a self-taught Developer who has completed several projects, obtained official certifications in Web Development and gained voluntary experience assisting in the maintenance and improved accessibility of an international studio website.</p>
+            <p>Professionally connected with the web development industry and data analysis for many years.</p>
+            <p>Highly organised, effective problem solver and independent employee with a strong attention to detail. Driven by enthusiasm and an endless curiousity I am always pushing the limits of my knowledge and abilities both in coding and my other passions.</p>
+        </div>
+        <img src="img/temp.jpg" alt="Developer image 2" class="about-me__img">
+    </section>
+
+<!-- My Work -->
+<section class="my-work" id="work">
+    <h2 class="section__title section__title--work">My work <i class="fas fa-code"></i></h2>
+    <p class="section__subtitle section__subtitle--work">A selection of my work</p>
+
+    <div class="portfolio">
+        <!-- Portfolio item 01 -->
+        <a href="projects/Maze_Game.html" class="portfolio__item">
+            <img src="img/Maze_Game.jpg" alt="" class="portfolio__img">
+        </a>
+
+        <!-- Portfolio item 02 -->
+        <a href="projects/Lights_Out_Game.html" class="portfolio__item">
+            <img src="img/Lights_Out_Game.jpg" alt="" class="portfolio__img">
+        </a>
+
+        <!-- Portfolio item 03 -->
+        <a href="projects/Restaurant_Reviews.html" class="portfolio__item">
+            <img src="img/Restaurant_Reviews.jpg" alt="" class="portfolio__img">
+        </a>
+
+        <!-- Portfolio item 04 -->
+        <a href="projects/Movie_Comparison.html" class="portfolio__item">
+            <img src="img/Movie_Comparison.jpg" alt="" class="portfolio__img">
+        </a>
+
+        <!-- Portfolio item 05 -->
+        <a href="projects/Colour_Guessing.html" class="portfolio__item">
+            <img src="img/Colour_Guessing_Game.jpg" alt="" class="portfolio__img">
+        </a>
+
+        <!-- Portfolio item 06 -->
+        <a href="projects/Tap_App.html" class="portfolio__item">
+            <img src="img/Tap.jpg" alt="" class="portfolio__img">
+        </a>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <!-- Email Address -->
+    <a href="jrnbishop@gmail.com" class="footer__link">jrnbishop@gmail.com</a>
+    <!-- Social List -->
+    <ul class="social-list">
+        <li class="social-list__item">
+            <a class="social-list__link" href="https://github.com/Jackr-B">
+                <i class="fab fa-github"></i>
+            </a>
+        </li>
+        <li class="social-list__item">
+            <a class="social-list__link" href="https://linkedin.com/in/jrnbishop">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </li>
+    </ul>
+</footer>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

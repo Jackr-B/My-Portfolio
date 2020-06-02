@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css//style.css">
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../img/temp.jpg" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="../index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="../index.html#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="../index.html#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="../index.html#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro">
+        <h1 class="section__title section__title--intro">
+            <strong>Maze Game</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">A game built with a focus on Matter.js and recursion</p>
+        <img src="../img/Maze_Game.jpg" alt="" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p><strong>The goal of the game is to get the ball through a randomly generated maze to the finishing square using the WASD keys</strong></p>
+        <img src="../img/Maze_Game.jpg" alt=""><br>
+        Development Notes:
+        <ol>
+            <li>The maze algorithm was built from scratch on a canvas with adjustable levels of difficulty.</li>
+            <li>Conditions were set to prevent the ball from passing through the walls but would result in end of the game upon touching the ending square.</li>
+            <li>The ball movement was mapped to the WASD keys with smooth motion physics instead of coming to an abrupt stop on key release.</li>
+            <li><strong>Github Repository: <a href="https://github.com/Jackr-B/Maze-Game"> Maze Game </a></strong></li>
+        </ol>
+    </div>
+
+<!-- Footer -->
+<footer class="footer">
+    <!-- Email Address -->
+    <a href="jrnbishop@gmail.com" class="footer__link">jrnbishop@gmail.com</a>
+    <!-- Social List -->
+    <ul class="social-list">
+        <li class="social-list__item">
+            <a class="social-list__link" href="https://github.com/Jackr-B">
+                <i class="fab fa-github"></i>
+            </a>
+        </li>
+        <li class="social-list__item">
+            <a class="social-list__link" href="https://linkedin.com/in/jrnbishop">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </li>
+    </ul>
+</footer>
+
+    <script src="../js/index.js"></script>
+
+</body>
+</html>
