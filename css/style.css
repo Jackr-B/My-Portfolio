@@ -153,7 +153,7 @@ header {
 	color: var(--clr-light);
 	top: 0;
 	bottom: 0;
-	left: 0;
+	left: 70%;
 	right: 0;
 	z-index: 100;
 
@@ -195,7 +195,7 @@ header {
 }
 
 .nav-open .nav {
-	transform: translateX(0);
+	transform: translateX(0%);
 }
 
 .nav-open .nav-toggle {
@@ -295,9 +295,9 @@ header {
 
 .my-services {
 	background-color: var(--clr-dark);
-	background-image: url(../img/background_pc.jpg);
+	background-image: url(../img/background.jpg);
 	background-size: cover;
-	background-blend-mode: multiply;
+	background-blend-mode: overlay;
 	color: var(--clr-light);
 	text-align: center;
 }
